@@ -1,0 +1,18 @@
+
+A Large Language Model (LLM) is a type of artificial intelligence model trained on massive text data to understand and generate human-like language.
+
+LLMs work by predicting the next word (token) in a sequence based on context.
+
+Tokens are small pieces of text such as words or subwords that the model processes.
+
+Temperature controls randomness in output:
+- Low temperature (0) → deterministic, factual answers
+- High temperature (1) → more creative, diverse answers
+
+Prompt engineering is the process of designing inputs to guide LLM behavior.
+
+RAG (Retrieval-Augmented Generation) combines LLMs with external knowledge sources to improve accuracy.
+
+LLMs can sometimes hallucinate, meaning they generate incorrect but confident answers.
+
+Examples of LLMs include GPT, LLaMA, and Mistral.
