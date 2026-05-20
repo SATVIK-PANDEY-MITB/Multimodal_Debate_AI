@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-05-20T12:40:21",
+  "question": "test logging",
+  "context": "ctx",
+  "initial_answers": {
+    "logical": "logical ans",
+    "creative": "creative ans"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "judge_decision": "Answer1",
+      "feedback": {
+        "logical": {
+          "ok": true
+        },
+        "creative": {
+          "ok": true
+        }
+      },
+      "refined_answers": {
+        "logical": "logical ans refined",
+        "creative": "creative ans refined"
+      },
+      "scores": {
+        "Answer1": {
+          "C": 1,
+          "CL": 1,
+          "CF": 1
+        },
+        "Answer2": {
+          "C": 1,
+          "CL": 1,
+          "CF": 1
+        }
+      }
+    }
+  ],
+  "final_winner": "Answer1"
+}

@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-05-20T13:56:49",
+  "question": "What is recursion?",
+  "context": "retrieved context",
+  "initial_answers": {
+    "logical": "logical answer",
+    "creative": "creative answer"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "judge_decision": "Answer1",
+      "feedback": {
+        "logical": {
+          "action_items": []
+        },
+        "creative": {
+          "action_items": []
+        }
+      },
+      "refined_answers": {
+        "logical": "logical refined 1",
+        "creative": "creative refined 1"
+      },
+      "scores": {
+        "Answer1": {
+          "C": 10,
+          "CL": 9,
+          "CF": 8
+        },
+        "Answer2": {
+          "C": 9,
+          "CL": 8,
+          "CF": 7
+        }
+      }
+    },
+    {
+      "round": 2,
+      "judge_decision": "Answer1",
+      "feedback": {
+        "logical": {
+          "action_items": []
+        },
+        "creative": {
+          "action_items": []
+        }
+      },
+      "refined_answers": {
+        "logical": "logical refined 2",
+        "creative": "creative refined 2"
+      },
+      "scores": {
+        "Answer1": {
+          "C": 10,
+          "CL": 9,
+          "CF": 8
+        },
+        "Answer2": {
+          "C": 9,
+          "CL": 8,
+          "CF": 7
+        }
+      }
+    },
+    {
+      "round": 3,
+      "judge_decision": "Answer1",
+      "feedback": {
+        "logical": {
+          "action_items": []
+        },
+        "creative": {
+          "action_items": []
+        }
+      },
+      "refined_answers": {
+        "logical": "logical refined 3",
+        "creative": "creative refined 3"
+      },
+      "scores": {
+        "Answer1": {
+          "C": 10,
+          "CL": 9,
+          "CF": 8
+        },
+        "Answer2": {
+          "C": 9,
+          "CL": 8,
+          "CF": 7
+        }
+      }
+    }
+  ],
+  "final_winner": "Answer1"
+}
